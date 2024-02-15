@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Document</title> -->
+    <link rel="Shortcut Icon" type="x-icon" href="images/OIP.jpeg">
+    <title>DEVTOWN - GET SOME KNOWLEDGE TO BUID SOMETHING</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/2764881fd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="navbar">
+        <nav>
+            <h1>DEVTOWN</h1>
+            <span id="menu" onclick="toogleMenu()" class="material-symbols-outlined">
+                <i id="menu" class="fa-solid fa-bars"></i>
+            </span>
+            <ul id="ul1">
+                <span id="close" class="material-symbols-outlined" onclick="closeMenu()"><i id="close" class="fa-solid fa-xmark"></i></span>
+                <li><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="About.html" style="color: white; text-decoration: none;">About</a></li>
+                <li><a href="blog.html" style="color: white; text-decoration: none;">Blog</a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: white ;">Contact</a></li>
+            </ul>
+            <ul id="ul2">
+                <li><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li><a href="About.html" style="color: white; text-decoration: none;">About</a></li>
+                <li><a href="blog.html" style="color: white; text-decoration: none;">Blog</a></li>
+                <li><a href="contact.html" style="text-decoration: none; color: white ;">Contact</a></li>
+
+            </ul>
+        </nav>
+    </section>
+
+    <section class="about-home">
+        <h2>About DevTown</h2>
+    </section>
+    <section id="about-container">
+        <div class="about-image ">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Welcome to DevTown , Enhance your skills with best online Courses </h2>
+            <p>You can start and finish one of these popular courses in under a day - for free! Check the list below..
+                Take the course for free </p>
+            <div class="about-fea">
+                <img src="images/fe1.png" alt="">
+                <div class="fea-text">
+                    <h5>400+ Courses</h5>
+                    <p>You can start and finish one of these popular courses in under our site </p>
+                </div>
+            </div>
+            <div class="about-fea">
+                <img src="images/fe2.png" alt="">
+                <div class="fea-text">
+                    <h5>500+ Mentors </h5>
+                    <p>Experienced Mentors who will lead your courses with one to one interactions </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Replenish man have thing gathering lights yeilding shall you </p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>scolarship Facilities</h3>
+                <p>Top rankers are getting education with 50% - 80% scholarship </p>
+            </div>
+
+            <div class="fea-box">
+                <i class="fas fa-file"></i>
+                <h3>Dell online Course</h3>
+                <p>Online Courses are also available </p>
+            </div>
+
+
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certification</h3>
+                <p>Certified with top companies and government authorised </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish man have thing gathering lights yeilding shall you </p>
+        <div class="trust-img">
+            <img src="images/trust (1).png" alt="">
+            <img src="images/trust (2).png" alt="">
+            <img src="images/trust (3).png" alt="">
+            <img src="images/trust (4).png" alt="">
+            <img src="images/trust (5).png" alt="">
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>power Tool</li>
+            <li>Managed Website </li>
+            <li>Marketing Service </li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations </li>
+            <li>Terms of Service </li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website </li>
+            <li>Marketing Service </li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service </li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us.We only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address ">
+                <a href="#" class="yellow">Subscribe </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2021 All rights reserved |</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toogleMenu() {
+        document.getElementById("ul1").style.display = "block";
+        document.getElementById("menu").style.display = "none";
+        document.getElementById("close").style.display = "block";
+    }
+    function closeMenu() {
+        document.getElementById("ul1").style.display = "none";
+        document.getElementById("menu").style.display = "block";
+    }
+</script>
+
+</html>
